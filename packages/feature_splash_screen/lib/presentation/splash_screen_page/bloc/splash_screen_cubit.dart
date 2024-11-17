@@ -6,5 +6,15 @@ part 'splash_screen_state.dart';
 
 @injectable
 class SplashScreenCubit extends BaseCubit<SplashScreenState> {
-  SplashScreenCubit() : super(SplashScreenInitial());
+  SplashScreenCubit() : super(const SplashScreenInitial());
+
+  @override
+  Future initialMethod() async {
+    await Future.delayed(const Duration(microseconds: 300));
+    if (true) {
+      emit(const GoToDashboard());
+    } else {
+      emit(const GoToOnboarding());
+    }
+  }
 }

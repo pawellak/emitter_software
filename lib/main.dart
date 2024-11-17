@@ -8,8 +8,7 @@ import 'package:flutter/material.dart';
 Future<void> mainSetup(String environment) async {
   WidgetsFlutterBinding.ensureInitialized();
   await configureDependencies(environment);
-  // await EasyLocalization.ensureInitialized();
-
+  await EasyLocalization.ensureInitialized();
   runApp(const EmitterApp());
 }
 
