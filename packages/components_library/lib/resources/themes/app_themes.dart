@@ -14,16 +14,6 @@ class AppThemes {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.cPrimary),
         scaffoldBackgroundColor: AppColors.cGray[100],
         fontFamily: GoogleFonts.cormorantGaramond().fontFamily,
-        // appBarTheme: AppBarTheme(
-        //   backgroundColor: AppColors.cGray[100]
-        // ),
-        // navigationRailTheme: NavigationRailThemeData(
-        //   backgroundColor: AppColors.cGray[100],
-        //   indicatorColor: Colors.yellow,
-        //  Cormorant Garamond
-        //
-        // ),
-
         dividerTheme: const DividerThemeData(color: Colors.transparent),
         extensions: [AppColorsTokensLight()],
         textTheme: AppTextThemes.appTextTheme,

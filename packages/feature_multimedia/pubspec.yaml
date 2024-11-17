@@ -1,0 +1,20 @@
+name: feature_multimedia
+publish_to: none
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+
+dev_dependencies:
+
+  freezed: any
+  build_runner: any
+  injectable_generator: any
+  retrofit_generator: any
+  json_serializable: any

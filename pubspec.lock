@@ -276,6 +276,41 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
+  feature_about_me:
+    dependency: "direct main"
+    description:
+      path: "packages/feature_about_me"
+      relative: true
+    source: path
+    version: "0.0.0"
+  feature_chat:
+    dependency: "direct main"
+    description:
+      path: "packages/feature_chat"
+      relative: true
+    source: path
+    version: "0.0.0"
+  feature_multimedia:
+    dependency: "direct main"
+    description:
+      path: "packages/feature_multimedia"
+      relative: true
+    source: path
+    version: "0.0.0"
+  feature_projects:
+    dependency: "direct main"
+    description:
+      path: "packages/feature_projects"
+      relative: true
+    source: path
+    version: "0.0.0"
+  feature_settings:
+    dependency: "direct main"
+    description:
+      path: "packages/feature_settings"
+      relative: true
+    source: path
+    version: "0.0.0"
   feature_splash_screen:
     dependency: "direct main"
     description:

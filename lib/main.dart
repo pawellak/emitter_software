@@ -23,6 +23,6 @@ class EmitterApp extends StatelessWidget {
         supportedLocales: const [AppLocale.pl, AppLocale.en],
         path: LabelsLoader.localLabelsPath,
         assetLoader: const LabelsLoader(),
-        child: const HomeRouter(appThemes: AppThemes()),
+        child: const HomeRouter(),
       );
 }
