@@ -23,7 +23,7 @@ abstract class BasePage<T extends BaseCubit> extends StatelessWidget implements 
               onBackPressed(providerContext, didPop: didPop);
             },
             child: SafeArea(
-              child: buildPage(providerContext),
+              child: Scaffold(body: buildPage(providerContext)),
             ),
           ),
         ),

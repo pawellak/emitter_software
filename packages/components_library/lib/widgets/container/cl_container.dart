@@ -37,7 +37,6 @@ class ClContainer extends StatelessWidget {
   }
 
   Widget _buildChildWidget(BuildContext context) => Container(
-
         width: width,
         height: height,
         padding: padding ?? const EdgeInsets.all(Dimens.dimen13),

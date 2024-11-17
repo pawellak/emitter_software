@@ -10,7 +10,7 @@ class SplashScreenCubit extends BaseCubit<SplashScreenState> {
 
   @override
   Future initialMethod() async {
-    await Future.delayed(const Duration(microseconds: 300));
+    await Future.delayed(const Duration(microseconds: 1000));
     if (true) {
       emit(const GoToDashboard());
     } else {

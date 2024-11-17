@@ -1,4 +1,6 @@
-import 'package:core/core_exports.dart' show AppLottie, BlocListener, ClLottie;
+import 'package:core/core_exports.dart' show AppLottie, BlocListener, ClLottie, GoRouterHelper;
+import 'package:core/di/core_package.dart';
+import 'package:core/features/features_set.dart';
 import 'package:core/presentation/base_page.dart';
 import 'package:feature_splash_screen/presentation/splash_screen_page/bloc/splash_screen_cubit.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +20,7 @@ class SplashScreenPage extends BasePage<SplashScreenCubit> {
         listener: (BuildContext context, SplashScreenState state) {
           switch (state) {
             case GoToDashboard():
-              //TODO -> GoToDashboard
+              context.go(getIt<AboutMeFeature>().path);
               break;
             case GoToOnboarding():
               //TODO -> GoToOnboarding

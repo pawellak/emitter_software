@@ -15,8 +15,19 @@ dependencies:
     path: packages/core
   feature_splash_screen:
     path: packages/feature_splash_screen
+  feature_projects:
+    path: packages/feature_projects
+  feature_about_me:
+    path: packages/feature_about_me
+  feature_multimedia:
+    path: packages/feature_multimedia
+  feature_settings:
+    path: packages/feature_settings
+  feature_chat:
+    path: packages/feature_chat
 
 dev_dependencies:
+
   injectable_generator: ^2.6.2
   retrofit_generator: ^9.1.5
   json_serializable: ^6.8.0
