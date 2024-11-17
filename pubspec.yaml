@@ -1,7 +1,6 @@
 name: emitter_software
 description: "software made by emitter"
-
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+2
 
@@ -12,9 +11,16 @@ dependencies:
   flutter:
     sdk: flutter
 
+  core:
+    path: packages/core
+  feature_splash_screen:
+    path: packages/feature_splash_screen
+
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  injectable_generator: ^2.6.2
+  retrofit_generator: ^9.1.5
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
 
 flutter:
   uses-material-design: true
